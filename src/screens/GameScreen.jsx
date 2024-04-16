@@ -12,7 +12,7 @@ import socketIOClient from 'socket.io-client'
 
 const GameScreen = () => {
   const [score, setScore] = useState(0);
-  const [time, setTime] = useState(1);
+  const [time, setTime] = useState(60);
   const [catcherPosition, setCatcherPosition] = useState(0);
   const [items, setItems] = useState([]);
   const [username, setUsername] = useState("");

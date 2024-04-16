@@ -34,7 +34,6 @@ const Leaderboard = () => {
         formatedMessage.sort((a, b) => b.score - a.score);
         setLeaderboardData(formatedMessage)
       });
-  
       // Clean up the socket connection on component unmount
       return () => {
         socket.disconnect();
