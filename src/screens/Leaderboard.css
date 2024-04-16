@@ -1,0 +1,40 @@
+.custom-button {
+    background-color: #FFD700;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .custom-button:hover {
+    background-color: #45a049;
+  }
+
+  .table-container {
+    height: 600px; /* Set the desired height for the container */
+    overflow: auto; /* Enable scrolling if the table exceeds the container height */
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    scrollbar-color: #FFD700 #000000; /* Set the color of the scrollbar */
+  }
+  
+  /* Track */
+  .table-container::-webkit-scrollbar-track {
+    background-color: #000000; /* Set the background color of the scrollbar track */
+  }
+  
+  /* Handle */
+  .table-container::-webkit-scrollbar-thumb {
+    background-color: #FFD700; /* Set the color of the scrollbar handle */
+    border-radius: 5px; /* Set the border radius of the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  .table-container::-webkit-scrollbar-thumb:hover {
+    background-color: #FFA500; /* Set the color of the scrollbar handle on hover */
+  }
